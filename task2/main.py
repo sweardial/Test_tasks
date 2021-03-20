@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import time
 from multiprocessing import Process, Manager
 import sys
-from datetime import datetime
 
 
 """
@@ -82,7 +81,6 @@ def progress_line():
 
 
 if __name__ == '__main__':
-    start = datetime.now()
     manager = Manager()
     dictionary = manager.dict({a: 0 for a in [chr(ord("А") + m) for m in range(32)]})
     process = Process(target=main, args=(dictionary, ))
@@ -91,5 +89,4 @@ if __name__ == '__main__':
         progress_line()
     if any(dictionary.values()):  # to avoid printing an empty dict if something went wrong.
         printing_dictionary(dictionary)
-    end = datetime.now()
-    print("Time is equal: ", end - start)
+
