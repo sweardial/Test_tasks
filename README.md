@@ -1,6 +1,8 @@
 # Welcome to Test_tasks 👋
 
-> Test tasks for a Junior Python Developer position. Inside of each folder you may find a descriprion of a specific problem and see the solution that i came up with.
+> Test tasks for a Junior Python Developer position. 
+> <p></p>
+> Inside of each folder you may find a descriprion of a specific problem and see the solution that i came up with.
 
 ## Install
 
