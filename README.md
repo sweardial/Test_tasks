@@ -2,8 +2,6 @@
 <p>
 </p>
 
-> Test tasks for a Junior Python Developer position 
-
 ## Author
 
 👤 **Dmytro Chesnokov**
