@@ -2,7 +2,7 @@
 
 > Test tasks for a Junior Python Developer position. 
 > <p></p>
-> Inside of each folder you may find a descriprion of a specific problem and see the solution that i came up with.
+> Inside of each folder you may find a description of a specific problem and see the solution that i came up with.
 
 ## Install
 
