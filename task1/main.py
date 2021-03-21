@@ -14,3 +14,10 @@ def test_array2(array):
 def test_array3(array):
     ones = array.count('1')
     return ones
+
+
+def test_array4(array):
+    i = 0
+    while array[i] != '0':
+        i += 1
+    return i
